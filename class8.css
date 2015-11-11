@@ -74,11 +74,11 @@
 	  border-top: 7px solid #000;
 	}
 
-	.tablet {
+	.tablet, .desktop {
 		display: none; 
 	}
 
-@media all and (min-width: 825px){
+@media all and (min-width: 700px){
 
 	header {
 		background-color: #000;
@@ -110,7 +110,7 @@
 		display: inline;
 	}
 
-	.mobile{
+	.mobile, .desktop {
 		display: none;
 	}
 
@@ -119,5 +119,20 @@
 		display: inline;
 		float: left;
 		margin: 10px;
+	}
+}
+
+@media all and (min-width: 1000px){
+
+	.desktop {
+		display: block;
+	}
+
+	.image {
+		width: 100%
+	}
+
+	.mobile, .tablet {
+		display: none;
 	}
 }
