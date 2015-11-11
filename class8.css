@@ -1,28 +1,53 @@
-@media all and (max-width: 960px) and (min-width: 481px)
+a {
+  text-decoration: none;
+}
 
 .logo {
+	background-color: limegreen;
 
 }
 
 .menu {
 	padding: 10px;
-	height: 100px;
-	background-color: limegreen;
-
-}
-
-ul li {
+	/*background-color: black;*/
 
 }
 
 .menu-items {
-	list-style-type: none;
+	list-style: none;
 	display: inline-block;
-	float: left;
 	padding: 0 20px;
 	margin: 0 5px;
 }
 
+nav {
+  text-align: center;
+  background-color: black;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav a {
+  padding: 15px 10px;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+	color: limegreen;
+}
+
 .content {
+	width: 70;
 
 }
+
+@media all and (max-width: 960px) and (min-width: 481px)
+
+
