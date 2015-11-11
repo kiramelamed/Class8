@@ -1,74 +1,123 @@
-@media all and (max-width: 480px)
+	a {
+	  text-decoration: none;
+	}
 
-a {
-  text-decoration: none;
+	header {
+		background-color: #000;
+	  float: left;
+	  margin: 0 0 30px 0;
+	  padding: 5px 0 0 0;
+	  width: 100%;
+	}
+
+	.logo {
+		background-color: limegreen;
+		/*margin: 0 auto;*/
+	}
+
+	.logo img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.menu-items {
+		list-style: none;
+		display: inline-block;
+		/*padding: 0 15px;*/
+		margin: 0 5px;
+	}
+
+	nav {
+	  text-align: center;
+	  background-color: black;
+	  padding: 10px 0;
+	  margin: 20px 0 0;
+	}
+
+	nav ul {
+	  list-style: none;
+	  margin: 0 10px;
+	  padding: 0;
+	}
+
+	nav a {
+	  padding: 15px 10px;
+	  color: white;
+	  font-weight: bold;
+	  text-decoration: none;
+	}
+
+	nav a:hover {
+	  color: limegreen;
+	}
+
+	.content {
+	  max-width: 70%;
+	  margin: 0 auto;
+	  padding: 0 5%;
+	}
+
+	.image {
+		width: 100%;
+		/*display: inline;
+		float: left;*/
+		margin: 10px;
+	}
+
+	.footer {
+	  font-size: 0.75em;
+	  text-align: center;
+	  clear: both;
+	  padding: 10px;
+	  color: #000;
+	  background-color: limegreen;
+	  border-top: 7px solid #000;
+	}
+
+	.tablet {
+		display: none; 
+	}
+
+@media all and (min-width: 825px){
+
+	header {
+		background-color: #000;
+		height: 100px;
+	}
+
+	nav {
+		background-color: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  .logo {
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .logo img{
+  	margin-top: -25px;
+  }
+
+	.tablet {
+		display: inline;
+	}
+
+	.mobile{
+		display: none;
+	}
+
+	.image {
+		width: 45%;
+		display: inline;
+		float: left;
+		margin: 10px;
+	}
 }
-
-.logo {
-	background-color: limegreen;
-
-}
-
-.menu {
-	padding: 10px;
-	/*background-color: black;*/
-
-}
-
-.menu-items {
-	list-style: none;
-	display: inline-block;
-	padding: 0 20px;
-	margin: 0 5px;
-}
-
-nav {
-  text-align: center;
-  background-color: black;
-  padding: 10px 0;
-  margin: 20px 0 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-nav a {
-  padding: 15px 10px;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: limegreen;
-}
-
-.content {
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
-#image1, #image2 {
-	width: 450px;
-	/*display: inline;
-	float: left;*/
-	margin: 10px;
-}
-
-.footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding: 10px;
-  color: #000;
-  background-color: limegreen;
-  border-top: 7px solid #000;
-}
-
-@media all and (max-width: 960px) and (min-width: 481px)
-
-
